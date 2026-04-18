@@ -125,6 +125,42 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+/* The Status Badge at the top */
+.status-badge {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border: 1px solid var(--primary-green);
+    color: var(--primary-green);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    background: rgba(186, 218, 85, 0.1); /* Subtle green tint background */
+}
+
+/* The Values Statement box in the bio */
+.values-statement {
+    margin-top: 30px;
+    padding: 20px;
+    background: #1a1a1a;
+    border-left: 3px solid var(--primary-green);
+}
+
+.values-statement h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+.values-statement p {
+    font-style: italic;
+    color: #ccc;
+    margin-bottom: 0;
+}
+
 /* Buttons */
 .btn {
     background-color: var(--primary-green);
